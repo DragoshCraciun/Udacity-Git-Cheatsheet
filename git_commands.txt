@@ -1,0 +1,51 @@
+git diff first_id second_id			# check the difference between two commits
+git diff					# check the difference between working directory and staging area
+git diff --staged				# check the difference between stagine area and repository
+git log --stat 					# gives statistics about which files have been changed in each commmit
+git log						# shows a log of the commits
+echo 'alias my_alias="/path"' >> ~/.bashrc 	# adds a new line in the .bashrc file
+cd ~ 						# navigates to my home directory
+mkdir my_folder 				# makes new directory
+cd .. 						# return to the previous folder
+cd /path 					# goes to that location
+vim /path my_file.txt 				# opens any text file in vim
+pwd 						# prints working directory
+ls 						# list the files in this directory
+ls -a						# list all the files in this directory (also hidden files)
+git clone https://github.com/...		# makes a copy of that repository on your computer
+git config --global color.ui auto		# to get colored diff output - red for removed and green for added changes.
+git checkout ID					# restore to a previous ID version
+git checkout master				# restore to master
+mv location/... new_location/...  		# move file from one location to other location
+git init					# initializes or creates a new Git repository
+git status					# shows which files have changed since the last commit
+git add	my_file.any				# adding files to the staging area
+git reset my_file.any				# removing files from the staging area
+git commit					# write a commit message in your text editor
+git commit -m "commit message"			# write a commit message via the command line
+explorer .					# opens the curent folder in windows explorer
+git reset --hard				# discards any changes in either the working directory or the staging area (unreversible)
+git branch					# checks that curent branch and displays all others
+git branch new_branch				# create a new branch named by the attribute
+git log --graph branch1 branch2			# visualize the branch structure of certrain branches
+git log --graph --oneline branch1 branch2 	# a simplified way to visualize the branch structure of certain branches
+git -b new_branch				# this comand creates a new branch named new_branch and then it checksout that branch
+git gc						# git garbage collection
+git merge master my_branch			# merging my_branch into master branch
+git show commit_id				# will show what changes have been introduced by a commit compared to its parrent
+git branch -d new_branch			# delete new_branch branch. this will not delete any commits in the branch, it will only delete the lable
+git merge --abort				# abort the curent merge
+git reset --hard commit_id			# resets head to the specified commit
+git reset HEAD~					# undo the last commit
+git remote					# view remotes
+git remote add <remote> <location>		# create a new remote with the given name to the given location
+git remote -v					# view remotes with more (verbose) information
+git push <remote> <branch>			# push files from your local specified branch to the specified remote
+git pull <remote> <branch>			# pull files from the remote, branch location to your local machine (if there is a conflict there will be merging)
+git commit --amend				# use this command to amend the commit message if the commit exists only in your local repository
+git fetch <remote> <branch>			# update just the local copy of the remote branch (without merging)
+git branch -f <branch> <commit>			# move defined branch to the defined commit
+git log --all					# log all branches
+git log -n 1					# log the last commit (1). (2) would log the commit before the last and so on.
+git branch -m <new_name>			# change branch name with new_name
+git remote set-url <remote> <location>		# change the url of the specifiend remote
