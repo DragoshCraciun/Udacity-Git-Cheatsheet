@@ -2,7 +2,7 @@
 
 This is a "cheat sheet" of all the Git commands I curently know from Udacity course and not only:
 [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775).
-For a more detailed view go to: [Git Reference](git.github.io/git-reference), [Git](https://git-scm.com/book/en/v2).
+For a more detailed view go to: [Git Reference](https://git.github.io/git-reference/) [Git](https://git-scm.com/book/en/v2).
 
 <h3>Basic Console Commands</h3>
 
