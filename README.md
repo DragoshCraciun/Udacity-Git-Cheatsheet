@@ -2,6 +2,7 @@
 
 This is a "cheat sheet" of all the Git commands I curently know from Udacity course and not only:
 [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775).
+For a more detailed view go to: [Git Reference](git.github.io/git-reference), [Git](https://git-scm.com/book/en/v2).
 
 <h3>Basic Console Commands</h3>
 
@@ -31,7 +32,7 @@ Command | Description | Options
 `git status` | Show the working tree status |
 `git diff` | Show changes between commits, commit and working tree, etc | (no arguments) - compare changes between working directory and staging area<br>`--staged` - compare changes between staged area and the most recent commit<br>`<commit1> <commit2>` - compare two commits
 `git commit` | Record changes to the repository | `-m` - add message in terminal<br>`-a` - automatically stage files that have been modified and deleted <br> `--amend` - change commit message (only in local)
-`git reset` | Reset current HEAD to the specified state | `HEAD <filename` - unstage file <br> `--hard` - discards any changes in either the working directory or the staging area (unreversible)
+`git reset` | Reset current HEAD to the specified state | `HEAD` - unstage file from index and reset pointer to HEAD <br>`--soft` - moves HEAD to specified commit reference, index and staging are untouched <br>`--hard` - unstage files and undo any changes in the working directory since last commit (unreversible)
 `rm <filename>` | deletes a file |
 `mv <filename> <target folder name>` | moves a file |
 
