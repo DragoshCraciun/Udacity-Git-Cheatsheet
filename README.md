@@ -58,7 +58,7 @@ Command | Description | Options
 
 Command | Description | Options
 ------------ | ------------- | -------------
-`git show <commit-ID>` | Show various types of objects |
+`git show` | It shows the log message and textual diff | `<commit-ID>` - Show various types of objects
 
 <h3>Other Gir Commands</h3>
 
