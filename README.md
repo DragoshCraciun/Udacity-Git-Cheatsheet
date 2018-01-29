@@ -40,7 +40,7 @@ Command | Description | Options
 
 Command | Description | Options
 ------------ | ------------- | -------------
-`git branch` | List, create, or delete branches | `<branch-name>` - switch to branch<br>`-a` - shows all local and remote branches<br>`-r` -shows only remote branches<br>`-d <branch-name>` - delete branch<br> `-b <new-branch>` - create and cheack out new-branch<br> `-f <branch> <commit>` - move defined branch to the defined commit <br> `-m <new-name>` - change branch name with new-name
+`git branch` | List, create, or delete branches | `<branch-name>` - switch to branch<br>`-a` - shows all local and remote branches<br>`-r` -shows only remote branches<br>`-d <branch-name>` - delete branch<br> `-f <branch> <commit>` - move defined branch to the defined commit <br> `-m <new-name>` - change branch name with new-name
 `git checkout` | Switch branches or restore working tree files | `<branch-name>` - switch to branch<br>`-b <new-branch-name>` - create and switch to new branch<br> `ID` - swich to the specified commit ID<br> `master` - swich to master head<br> `-- <file>` - extract the version of the `<file>` from the staging area (index)<br> `-- <directory>` - extract all files from the staging area (index) whose path name begins with `<directory>`<br> `-- .` - extract all files from the staging area (index) (if you are at the top level of your work-tree)
 `git merge <branch1> <branch2>` | Join two or more development histories together | `--abort` - abort merge if there are unexpected conflicts
 `git log` | Show commit history | `--oneline` - display on one line<br>`--graph` - show a graph of the branch, merge history<br>`-<n>` - show `n` commits<br>`--stat` - shows number of files changed, plus deletions and insertions for each commit
