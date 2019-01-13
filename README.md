@@ -1,9 +1,5 @@
 # Git Cheatsheet
 
-This is a "cheat sheet" of all the Git commands I curently know from Udacity course and not only:
-[How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775).
-For a more detailed view go to: [Git Reference](https://git.github.io/git-reference/) [Git](https://git-scm.com/book/en/v2).
-
 <h3>Basic Console Commands</h3>
 
 Command | Description | Options
@@ -67,3 +63,7 @@ Command | Description | Options
 `git help` | Prints the synopsis and a list of the most commonly used commands | `-a` prints all commands
 `git config --global color.ui auto` | Color diff output <br> red for removed and green for added. |
 `git gc` | git garbage collector`
+
+This is a "cheat sheet" of all the Git commands I curently know from Udacity course and not only:
+[How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775).
+For a more detailed view go to: [Git Reference](https://git.github.io/git-reference/) [Git](https://git-scm.com/book/en/v2).
